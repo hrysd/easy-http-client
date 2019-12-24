@@ -1,0 +1,17 @@
+{
+    "name": "hrysd/easy-http-client",
+    "type": "library",
+    "require": {
+        "php": "^7.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hiroshi Yoshida",
+            "email": "hrysd22@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"EasyHttpClient\\": "src/"}
+    }
+}
