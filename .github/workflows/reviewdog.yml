@@ -1,0 +1,12 @@
+name: Reviewdog
+on: [pull_request]
+
+jobs:
+  php_codesniffer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: hrysd/action-php_codesniffer@master
+        with:
+          github_token: ${{ secrets.github_api_token }}
+
