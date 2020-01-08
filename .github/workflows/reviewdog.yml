@@ -9,4 +9,5 @@ jobs:
       - uses: hrysd/action-php_codesniffer@master
         with:
           github_token: ${{ secrets.github_api_token }}
+          target_directory: src
 
