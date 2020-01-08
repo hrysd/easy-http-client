@@ -86,4 +86,9 @@ class Client
             throw new InvalidArgumentException();
         }
     }
+
+    public function ho_HO()
+    {
+        echo "ho_HO";
+    }
 }

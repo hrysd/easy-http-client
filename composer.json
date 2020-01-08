@@ -13,5 +13,8 @@
     ],
     "autoload": {
         "psr-4": {"EasyHttpClient\\": "src/"}
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
     }
 }
