@@ -87,7 +87,8 @@ class Client
         }
     }
 
-    function ho_HO () {
+    public function ho_HO()
+    {
         echo "ho_HO";
     }
 }
